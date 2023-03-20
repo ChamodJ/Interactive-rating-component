@@ -83,7 +83,7 @@ p {
     font-weight: 700;
 }
 
-.submit-btn:hover {
+.submit-btn:active {
     background-color: hsl(25, 95%, 43%);
 }
 
