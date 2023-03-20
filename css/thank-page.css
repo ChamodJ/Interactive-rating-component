@@ -53,3 +53,43 @@ p {
     margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 992px) {
+    body {
+        margin: 0 450px;
+    }
+    
+    .card {
+        padding: 25px;
+    }
+
+    .rate-el-div {
+       
+        width: 180px;
+        border-radius: 40px;
+        padding: 1px 25px;
+        margin-bottom: 30px;
+    }
+    
+    .rate-el {
+        font-size: 1rem;
+        color: #b36f35;
+        font-weight: 700;
+    }
+    
+    .thankyou-img {
+        width: 150px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    
+    p {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+}
