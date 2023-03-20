@@ -11,8 +11,7 @@ body {
 
 .card {
     background-color: hsl(213, 19%, 18%);
-    min-width: 50%;
-    max-width: 70%;
+    width: 70%;
     margin: auto;
     text-align: justify;
     padding: 50px;
@@ -30,7 +29,7 @@ body {
     margin-bottom: 40px;
 }
 
-img {
+.star-icon {
     width: 35px;
     background-color: hsl(218, 16%, 24%);
     
