@@ -35,7 +35,7 @@ body {
     margin-bottom: 50px;
 }
 
-.rate-el {
+#rate-el {
     font-size: 2rem;
     color: #b36f35;
     font-weight: 700;
@@ -70,7 +70,7 @@ p {
         margin-bottom: 30px;
     }
     
-    .rate-el {
+    #rate-el {
         font-size: 1rem;
         color: #b36f35;
         font-weight: 700;
