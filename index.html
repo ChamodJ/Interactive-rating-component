@@ -12,7 +12,7 @@
 
     <body>
         <main>
-            <div class="card">
+            <div class="card" id="rating-div">
                 <div class="star-img-div">
                     <img class="star-icon" src="images/icon-star.svg" alt="star-icon">
                 </div>
@@ -20,7 +20,7 @@
                 <h1>How did we do?</h1>
                 <p>Please let us know how we did woth your support request.All feedback is appreciated to help us improve our offering!</p>
 
-                <div class="rating-btn">
+                <div class="rating-btn-div" id="rating-btn">
                     <button onclick="button1()">1</button>
                     <button onclick="button2()">2</button>
                     <button onclick="button3()">3</button>
@@ -29,9 +29,21 @@
                 </div>
                 
                 <div>
-                    <button class="submit-btn" onclick="location.href = 'thankYou.html'">S U B M I T</button>
+                    <button class="submit-btn" type="submit" id="submit-btn-el">S U B M I T</button>
                 </div>
             </div>
+
+            <div class="card hide" id="thank-card">
+                <img class="thankyou-img" src="images/illustration-thank-you.svg" alt="Thankyou-img">
+
+                <div class="rate-el-div">
+                    <p id="rate-el">You selected 4 out of 5</p>
+                </div>
+                <h1>Thank You!</h1>
+
+                <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            </div>
+
             <script src="index.js"></script>
         </main>
     </body>

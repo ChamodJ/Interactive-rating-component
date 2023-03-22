@@ -1,37 +1,19 @@
+let ratingBtn = document.getElementById("rating-btn")
+let ratingEl = document.getElementById("rating-div")
+let submitBtn =  document.getElementById("submit-btn-el")
+let thankCard =  document.getElementById("thank-card")
+let rateEl =  document.getElementById("rate-el")
+let ratings = document.querySelectorAll(".btn")
 
+ratings.forEach(function(rate){
+    rate.addEventListener('click', function(){
+        rateEl.innerText = "You selected " + rate.innerText + " out of 5"
+    })
+})
 
-/*
-function button1() {
-    massege = "You selected 1 out of 5"
-    localStorage.setItem(massege)
-}
+submitBtn.addEventListener('click', function(){
+    ratingEl.classList.remove("card")
+    ratingEl.classList.add("hide")
 
-function button2() {
-    massege = "You selected 2 out of 5"
-    localStorage.setItem(massege)
-}
-
-function button3() {
-    massege = "You selected 3 out of 5"
-    localStorage.setItem(massege)
-}
-
-function button4() {
-    massege = "You selected 4 out of 5"
-    localStorage.setItem(massege)
-}
-
-function button5() {
-    massege = "You selected 5 out of 5"
-    localStorage.setItem(massege)
-}
-
-function submit() {
-rateEl.textContent = localStorage.getItem(massege)
-}
-*/
-document.getElementById("").addEventListener("click" , massege)
-
-function massege() {
-    document.getElementById("rate-el").innerHTML = ("You selected 1 out of 5")
-}
+    thankCard.classList.remove("hide")
+})
