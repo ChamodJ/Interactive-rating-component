@@ -5,13 +5,7 @@ let thankCard =  document.getElementById("thank-card")
 let rateEl =  document.getElementById("rate-el")
 let ratings = document.getElementById("rating-btn").querySelectorAll("button")
 
-/*ratings.forEach(function(rate){
-    rate.addEventListener('click', function(){
-        rateEl.innerText = "You selected " + rate.innerText + " out of 5"
-    })
-})*/
-/*let rate = ratingBtn.Value;
-rateEl.innerText = rate*/
+
 
 ratings.forEach(function(i){
     i.addEventListener("click", function(e){
