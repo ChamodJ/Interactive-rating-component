@@ -94,6 +94,10 @@ p {
     display: none;
 }
 
+.thankyou-img {
+    width: 350px;
+}
+
 .rate-el-div {
     background-color: hsl(218, 16%, 24%);
     width: 350px;
@@ -102,11 +106,12 @@ p {
     border-radius: 40px;
     padding: 1px 105px;
     margin-bottom: 50px;
+    margin-top: 50px;
     text-align: center;
 }
 
 .rate-el-div p {
-    font-size: 1.2rem;
+    font-size: 2.1rem;
     text-align: center;
 }
 
@@ -157,6 +162,10 @@ p {
         font-size: 1rem;
     }
 
+    .thankyou-img {
+        width: 200px;
+    }
+
     .rate-el-div {
        
         width: 180px;
@@ -164,5 +173,9 @@ p {
         padding: 1px 25px;
         margin-bottom: 30px;
         margin-top: 30px;
+    }
+
+    .rate-el-div p {
+        font-size: 1rem;
     }
 }
